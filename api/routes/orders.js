@@ -1,10 +1,6 @@
 const express = require('express');
 const router = express.Router();
 
-
-
-
-
 router.get('/', (req, res, next) => {
     res.status(200).json({
         message: 'Orders were fetched'
@@ -32,3 +28,5 @@ router.delete('/:orderesId', (req, res, next) => {
 });
 
 module.exports = router;
+
+//to be continued
